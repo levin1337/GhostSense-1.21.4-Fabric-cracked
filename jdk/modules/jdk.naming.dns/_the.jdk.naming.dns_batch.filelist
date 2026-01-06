@@ -1,0 +1,16 @@
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DNSDatagramChannelFactory.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DnsClient.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DnsContext.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DnsContextFactory.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DnsName.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DnsNameParser.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/DnsUrl.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/Header.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/NameNode.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/Resolver.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/ResourceRecord.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/ResourceRecords.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/dns/ZoneNode.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/url/dns/dnsURLContext.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/com/sun/jndi/url/dns/dnsURLContextFactory.java
+/cygdrive/c/jdk21-master/src/jdk.naming.dns/share/classes/module-info.java

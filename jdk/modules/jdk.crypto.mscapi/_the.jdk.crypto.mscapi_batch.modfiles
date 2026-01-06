@@ -1,0 +1,15 @@
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/module-info.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKey.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyPair.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyPairGenerator.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPrivateKey.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPublicKey.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/PRNG.java
+/cygdrive/c/jdk21-master/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/jdk.crypto.mscapi/_the.jdk.crypto.mscapi.vardeps
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/buildtools/depend/_the.COMPILE_DEPEND_batch
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/jdk.crypto.mscapi/_the.jdk.crypto.mscapi-javacserver.conf
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.base/_the.java.base_pubapi

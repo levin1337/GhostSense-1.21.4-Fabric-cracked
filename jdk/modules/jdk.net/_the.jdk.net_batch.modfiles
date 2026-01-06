@@ -1,0 +1,13 @@
+/cygdrive/c/jdk21-master/src/jdk.net/windows/classes/jdk/net/WindowsSocketOptions.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/net/NetworkPermission.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/net/Sockets.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/net/UnixDomainPrincipal.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/net/package-info.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/nio/Channels.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/jdk/nio/package-info.java
+/cygdrive/c/jdk21-master/src/jdk.net/share/classes/module-info.java
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/jdk.net/_the.jdk.net.vardeps
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/buildtools/depend/_the.COMPILE_DEPEND_batch
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/jdk.net/_the.jdk.net-javacserver.conf
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.base/_the.java.base_pubapi

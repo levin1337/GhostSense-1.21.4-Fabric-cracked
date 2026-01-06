@@ -1,0 +1,14 @@
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\ClassDefinition.java
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\ClassFileTransformer.java
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\IllegalClassFormatException.java
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\Instrumentation.java
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\UnmodifiableClassException.java
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\UnmodifiableModuleException.java
+c:\jdk21-master\src\java.instrument\share\classes\java\lang\instrument\package-info.java
+c:\jdk21-master\src\java.instrument\share\classes\module-info.java
+c:\jdk21-master\src\java.instrument\share\classes\sun\instrument\InstrumentationImpl.java
+c:\jdk21-master\src\java.instrument\share\classes\sun\instrument\TransformerManager.java
+c:\jdk21-master\build\windows-x86_64-server-release\jdk\modules\java.instrument\_the.java.instrument.vardeps
+c:\jdk21-master\build\windows-x86_64-server-release\buildtools\depend\_the.COMPILE_DEPEND_batch
+c:\jdk21-master\build\windows-x86_64-server-release\jdk\modules\java.instrument\_the.java.instrument-javacserver.conf
+c:\jdk21-master\build\windows-x86_64-server-release\jdk\modules\java.base\_the.java.base_pubapi

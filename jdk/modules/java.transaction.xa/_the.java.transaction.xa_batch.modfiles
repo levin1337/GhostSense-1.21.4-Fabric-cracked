@@ -1,0 +1,9 @@
+/cygdrive/c/jdk21-master/src/java.transaction.xa/share/classes/javax/transaction/xa/XAException.java
+/cygdrive/c/jdk21-master/src/java.transaction.xa/share/classes/javax/transaction/xa/XAResource.java
+/cygdrive/c/jdk21-master/src/java.transaction.xa/share/classes/javax/transaction/xa/Xid.java
+/cygdrive/c/jdk21-master/src/java.transaction.xa/share/classes/javax/transaction/xa/package-info.java
+/cygdrive/c/jdk21-master/src/java.transaction.xa/share/classes/module-info.java
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.transaction.xa/_the.java.transaction.xa.vardeps
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/buildtools/depend/_the.COMPILE_DEPEND_batch
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.transaction.xa/_the.java.transaction.xa-javacserver.conf
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.base/_the.java.base_pubapi

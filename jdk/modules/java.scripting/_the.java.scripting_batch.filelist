@@ -1,0 +1,15 @@
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/com/sun/tools/script/shell/Main.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/AbstractScriptEngine.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/Bindings.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/Compilable.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/CompiledScript.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/Invocable.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/ScriptContext.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/ScriptEngine.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/ScriptEngineFactory.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/ScriptEngineManager.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/ScriptException.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/SimpleBindings.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/SimpleScriptContext.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/javax/script/package-info.java
+/cygdrive/c/jdk21-master/src/java.scripting/share/classes/module-info.java

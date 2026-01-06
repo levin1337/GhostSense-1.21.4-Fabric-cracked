@@ -1,0 +1,4 @@
+/reg kika229 kika229
+/tpa XFyiyxa14
+/sethome home
+/hub
