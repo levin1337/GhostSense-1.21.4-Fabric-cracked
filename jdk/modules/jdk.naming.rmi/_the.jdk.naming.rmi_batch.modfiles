@@ -1,0 +1,14 @@
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/ReferenceWrapper.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/ReferenceWrapper_Stub.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RemoteReference.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java
+/cygdrive/c/jdk21-master/src/jdk.naming.rmi/share/classes/module-info.java
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/jdk.naming.rmi/_the.jdk.naming.rmi.vardeps
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/buildtools/depend/_the.COMPILE_DEPEND_batch
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/jdk.naming.rmi/_the.jdk.naming.rmi-javacserver.conf
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.base/_the.java.base_pubapi
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.naming/_the.java.naming_pubapi
+/cygdrive/c/jdk21-master/build/windows-x86_64-server-release/jdk/modules/java.rmi/_the.java.rmi_pubapi

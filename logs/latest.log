@@ -1,0 +1,1002 @@
+[19:56:47] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.18.2
+[19:56:47] [ForkJoinPool-1-worker-7/WARN]: Mod org_cloudburstmc_netty_netty-transport-raknet uses the version 1.0.0.CR3-SNAPSHOT which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'CR3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:56:48] [ForkJoinPool-1-worker-7/WARN]: Mod com_github_oryxel_cubeconverter uses the version 916cadb12a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '916cadb12a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:56:48] [main/INFO]: Loading 83 mods:
+	- fabric-api 0.111.0+1.21.4
+	   |-- fabric-api-lookup-api-v1 1.6.84+7feeb73304
+	   |-- fabric-biome-api-v1 15.0.4+466a140b04
+	   |-- fabric-block-api-v1 1.0.31+7feeb73304
+	   |-- fabric-block-view-api-v2 1.0.19+7feeb73304
+	   |-- fabric-blockrenderlayer-v1 2.0.7+7feeb73304
+	   |-- fabric-client-tags-api-v1 1.1.27+7feeb73304
+	   |-- fabric-command-api-v1 1.2.61+f71b366f04
+	   |-- fabric-commands-v0 0.2.78+df3654b304
+	   |-- fabric-content-registries-v0 9.1.12+7feeb73304
+	   |-- fabric-convention-tags-v1 2.1.6+7f945d5b04
+	   |-- fabric-convention-tags-v2 2.9.6+466a140b04
+	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	   |-- fabric-data-attachment-api-v1 1.4.3+9aea556b04
+	   |-- fabric-data-generation-api-v1 22.1.2+466a140b04
+	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
+	   |-- fabric-entity-events-v1 2.0.11+60fccc7604
+	   |-- fabric-events-interaction-v0 4.0.1+a4eebcf004
+	   |-- fabric-game-rule-api-v1 1.0.62+7feeb73304
+	   |-- fabric-item-api-v1 11.1.12+203e6b2304
+	   |-- fabric-item-group-api-v1 4.1.21+7feeb73304
+	   |-- fabric-key-binding-api-v1 1.0.56+7feeb73304
+	   |-- fabric-keybindings-v0 0.2.54+df3654b304
+	   |-- fabric-loot-api-v2 3.0.31+3f89f5a504
+	   |-- fabric-loot-api-v3 1.0.19+203e6b2304
+	   |-- fabric-message-api-v1 6.0.24+7feeb73304
+	   |-- fabric-model-loading-api-v1 4.1.0+7b6b225304
+	   |-- fabric-object-builder-api-v1 18.0.5+e604fe7f04
+	   |-- fabric-recipe-api-v1 8.0.3+fa62a02304
+	   |-- fabric-renderer-api-v1 5.0.1+84404cdd04
+	   |-- fabric-renderer-indigo 2.0.1+84404cdd04
+	   |-- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04
+	   |-- fabric-rendering-fluids-v1 3.1.18+7feeb73304
+	   |-- fabric-rendering-v1 10.1.0+7e7568bf04
+	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	   |-- fabric-screen-api-v1 2.0.37+7feeb73304
+	   |-- fabric-screen-handler-api-v1 1.3.106+7feeb73304
+	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
+	   |-- fabric-transfer-api-v1 5.4.6+1885ad7404
+	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.18.2+local
+	   \-- mixinextras 0.5.0
+	- ghostsense 1.21.4
+	   |-- club_minnced_java-discord-rpc 1.3.6
+	   |-- io_netty_netty-codec-socks 4.1.82
+	   |-- io_netty_netty-handler-proxy 4.1.82
+	   \-- org_json_json 20231013
+	- java 21
+	- minecraft 1.21.4
+	- viafabricplus 4.0.5-BACKPORT
+	   |-- com_github_oryxel_cubeconverter 916cadb12a
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- com_vdurmont_semver4j 3.1.0
+	   |-- com_viaversion_viaaprilfools-common 4.0.2-20250426.140810-22
+	   |-- com_viaversion_viabackwards-common 5.3.3-20250426.185209-1
+	   |-- com_viaversion_vialoader 4.0.3-20250426.141011-6
+	   |-- com_viaversion_viaversion-common 5.3.3-20250426.143637-8
+	   |-- de_florianmichael_classic4j 2.1.1-SNAPSHOT
+	   |-- fabric-api-base 0.4.54+b47eab6b04
+	   |-- fabric-command-api-v2 2.2.41+e496eb1504
+	   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	   |-- fabric-networking-api-v1 4.4.0+db5e668204
+	   |-- fabric-particles-v1 4.0.14+7feeb73304
+	   |-- fabric-registry-sync-v0 6.1.11+4a9c1ece04
+	   |-- fabric-resource-loader-v0 3.1.1+360374ac04
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-http 4.2.0
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_lenni0451_mcstructs-bedrock_forms 2.0.0
+	   |-- net_lenni0451_mcstructs-bedrock_text 2.0.0
+	   |-- net_lenni0451_reflect 1.4.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- net_raphimc_viabedrock 0.0.16-20250404.165607-5
+	   |-- net_raphimc_vialegacy 3.0.10-20250426.140714-8
+	   |-- org_cloudburstmc_netty_netty-transport-raknet 1.0.0.CR3-SNAPSHOT
+	   |-- org_lz4_lz4-pure-java 1.8.0
+	   |-- team_unnamed_mocha 3.0.1
+	   |-- viafabricplus-api 4.0.5-BACKPORT
+	   |-- viafabricplus-api-legacy 4.0.5-BACKPORT
+	   \-- viafabricplus-visuals 4.0.5-BACKPORT
+[19:56:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/HACKER/Desktop/GhostSense/libraries/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:56:48] [main/INFO]: Compatibility level set to JAVA_21
+[19:56:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:56:54] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 625 milliseconds
+[19:57:09] [Render thread/INFO]: Environment: Environment[sessionHost=https://account.ely.by/api/authlib-injector/sessionserver, servicesHost=https://account.ely.by/api/mojang/services, name=ELY]
+[19:57:09] [Render thread/INFO]: Setting user: Player273
+[19:57:10] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[19:57:10] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[19:57:10] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:57:11] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[19:57:11] [ForkJoinPool.commonPool-worker-1/INFO]: Loading translations...
+[19:57:11] [ForkJoinPool.commonPool-worker-1/INFO]: Registering protocols...
+[19:57:15] [ForkJoinPool.commonPool-worker-1/INFO]: Started resource pack HTTP server on http://127.0.0.1:57124/
+[19:57:15] [ForkJoinPool.commonPool-worker-1/INFO]: ViaVersion detected lowest supported version by the proxy: c0.0.15a-1 (0)
+[19:57:15] [ForkJoinPool.commonPool-worker-1/INFO]: Highest supported version by the proxy: 1.21.5 (770)
+[19:57:15] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://account.ely.by/api/authlib-injector/sessionserver, servicesHost=https://account.ely.by/api/mojang/services, name=ELY]
+[19:57:16] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, com_viaversion_viaaprilfools-common, com_viaversion_viabackwards-common, com_viaversion_viaversion-common, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, ghostsense, net_raphimc_viabedrock, net_raphimc_vialegacy, viafabricplus, viafabricplus-visuals
+[19:57:16] [Render thread/ERROR]: Invalid path in mod resource-pack ghostsense: ghostsense:font/iconsWex.ttf, ignoring
+[19:57:16] [Worker-Main-2/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
+[19:57:17] [Worker-Main-3/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
+[19:57:19] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor.
+[19:57:19] [Render thread/INFO]: [STDOUT]: Позиции draggable элементов загружены из файла.
+[19:57:19] [Render thread/INFO]: [STDOUT]: [+] Загружаю AutoCfg...
+[19:57:20] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Наушники (Realtek(R) Audio)
+[19:57:20] [Render thread/INFO]: Sound engine started
+[19:57:20] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:57:20] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[19:57:41] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at -1, -1. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at -1, 0. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at -1, 1. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 0, -1. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 0, 0. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 0, 1. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 1, -1. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 1, 0. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 1, 1. Chunk was already loaded: false
+[19:57:43] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:57:44] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:57:44] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:57:44] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:57:46] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:57:49] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:57:52] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:57:55] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:57:58] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:00] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:03] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:06] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:09] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:12] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:15] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:18] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:21] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:24] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:27] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:30] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:31] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Вы ввели капчу неправильно, пожалуйста, попробуйте еще раз. У вас осталось 2 попыток.
+[19:58:31] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:32] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:33] [Netty Client IO #3/WARN]: ERROR IN ClientboundBaseProtocol1_16 IN REMAP OF STATUS_RESPONSE (0x00)
+[19:58:33] [Netty Client IO #3/ERROR]: An exception occurred while handling a packet
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 256)
+	at knot/io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.VarIntType.readPrimitive(VarIntType.java:54) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:49) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:32) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.readFromBuffer(PacketWrapperImpl.java:146) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.passthrough(PacketWrapperImpl.java:194) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.lambda$map$0(PacketHandlers.java:57) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	... 31 more
+[19:58:34] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:58:36] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:58:38] [Netty Client IO #9/WARN]: ERROR IN ClientboundBaseProtocol1_16 IN REMAP OF STATUS_RESPONSE (0x00)
+[19:58:38] [Netty Client IO #9/ERROR]: An exception occurred while handling a packet
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 256)
+	at knot/io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.VarIntType.readPrimitive(VarIntType.java:54) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:49) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:32) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.readFromBuffer(PacketWrapperImpl.java:146) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.passthrough(PacketWrapperImpl.java:194) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.lambda$map$0(PacketHandlers.java:57) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	... 31 more
+[19:58:38] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at -1, -1. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at -1, 0. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at -1, 1. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at 0, -1. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at 0, 0. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at 0, 1. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at 1, -1. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at 1, 0. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) No light data found for chunk at 1, 1. Chunk was already loaded: false
+[19:58:39] [Netty Client IO #11/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:58:40] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:58:40] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:58:40] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:58:42] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:58:45] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:58:48] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:58:48] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:58:50] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Вы успешно прошли проверку!
+[19:58:51] [Render thread/INFO]: Loaded 0 advancements
+[19:58:51] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ » Авторизуйтесь, используя /login [пароль].
+[19:59:00] [Netty Client IO #14/WARN]: ERROR IN ClientboundBaseProtocol1_16 IN REMAP OF STATUS_RESPONSE (0x00)
+[19:59:00] [Netty Client IO #14/ERROR]: An exception occurred while handling a packet
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 256)
+	at knot/io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.VarIntType.readPrimitive(VarIntType.java:54) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:49) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:32) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.readFromBuffer(PacketWrapperImpl.java:146) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.passthrough(PacketWrapperImpl.java:194) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.lambda$map$0(PacketHandlers.java:57) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	... 31 more
+[19:59:00] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:59:01] [Render thread/INFO]: Loaded 0 advancements
+[19:59:01] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ » Авторизуйтесь, используя /login [пароль].
+[19:59:07] [Netty Client IO #19/WARN]: ERROR IN ClientboundBaseProtocol1_16 IN REMAP OF STATUS_RESPONSE (0x00)
+[19:59:07] [Netty Client IO #19/ERROR]: An exception occurred while handling a packet
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 256)
+	at knot/io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.VarIntType.readPrimitive(VarIntType.java:54) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:49) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:32) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.readFromBuffer(PacketWrapperImpl.java:146) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.passthrough(PacketWrapperImpl.java:194) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.lambda$map$0(PacketHandlers.java:57) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	... 31 more
+[19:59:07] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:59:08] [Render thread/INFO]: Loaded 0 advancements
+[19:59:09] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ » Авторизуйтесь, используя /login [пароль].
+[19:59:18] [Netty Client IO #0/WARN]: ERROR IN ClientboundBaseProtocol1_16 IN REMAP OF STATUS_RESPONSE (0x00)
+[19:59:18] [Netty Client IO #0/ERROR]: An exception occurred while handling a packet
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 256)
+	at knot/io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.VarIntType.readPrimitive(VarIntType.java:54) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:49) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:32) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.readFromBuffer(PacketWrapperImpl.java:146) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.passthrough(PacketWrapperImpl.java:194) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.lambda$map$0(PacketHandlers.java:57) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	... 31 more
+[19:59:18] [Render thread/INFO]: Connecting to mc.lonygrief.ru, 25565
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at -1, -1. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at -1, 0. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at -1, 1. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 0, -1. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 0, 0. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 0, 1. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 1, -1. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 1, 0. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) No light data found for chunk at 1, 1. Chunk was already loaded: false
+[19:59:19] [Netty Client IO #2/WARN]: (1.17.1->1.18) This means another plugin is sending chunk data in a bad order, or you need to re-enable the cache-1_17-light config option.
+[19:59:20] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:59:20] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:59:20] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:59:22] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:59:25] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:59:28] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Идет проверка, пожалуйста, подождите.
+[19:59:28] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:59:31] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:59:33] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:59:36] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:59:39] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:59:42] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  При необходимости вращайте картинку в нужную сторону, а затем введите код с изображения в чат.
+[19:59:44] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ »  Вы успешно прошли проверку!
+[19:59:45] [Render thread/INFO]: Loaded 0 advancements
+[19:59:45] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ » Пожалуйста, зарегестрируйтесь: /register [пароль] [повтор пароля].
+[19:59:48] [Render thread/INFO]: [CHAT]             6
+[19:59:48] [Render thread/INFO]: [CHAT]       +      
+[19:59:48] [Render thread/INFO]: [CHAT]  6           
+[19:59:48] [Render thread/INFO]: [CHAT]              
+[19:59:48] [Render thread/INFO]: [CHAT]              
+[19:59:48] [Render thread/INFO]: [CHAT] Введите ответ на пример в чат числом.
+[19:59:50] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ » Нажмите сюда, чтобы закончить регистрацию.
+[19:59:51] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ » Вы успешно зарегистрировались!
+[19:59:51] [Render thread/INFO]: Loaded 0 advancements
+[19:59:52] [Render thread/INFO]: Loaded 2 advancements
+[19:59:54] [Render thread/INFO]: [CHAT] 
+[19:59:54] [Render thread/INFO]: [CHAT]                                             
+[19:59:54] [Render thread/INFO]: [CHAT] 
+[19:59:54] [Render thread/INFO]: [CHAT]              « ʟᴏɴʏɢʀɪᴇꜰ »
+[19:59:54] [Render thread/INFO]: [CHAT] 
+[19:59:54] [Render thread/INFO]: [CHAT]    Добро пожаловать на сервер!
+[19:59:54] [Render thread/INFO]: [CHAT]     Подписывайся на наши соц.сети!
+[19:59:54] [Render thread/INFO]: [CHAT]    Дискорд сервер: ᴅsᴄ.ɢɢ/ʟᴏɴʏɢʀɪᴇꜰᴍᴄ
+[19:59:54] [Render thread/INFO]: [CHAT] 
+[19:59:54] [Render thread/INFO]: [CHAT]                                             
+[19:59:54] [Render thread/INFO]: [CHAT] 
+[19:59:54] [Render thread/INFO]: Loaded 0 advancements
+[19:59:56] [Render thread/INFO]: [CHAT] 
+[19:59:56] [Render thread/INFO]: [CHAT]  ╔ Игрок boostyraa выиграл донат ɪᴍᴘᴇʀᴀᴛᴏʀ
+[19:59:56] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[19:59:56] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[19:59:56] [Render thread/INFO]: [CHAT] 
+[19:59:56] [Render thread/INFO]: [CHAT] Ⓖ | [asda] ɢʟᴀᴅɪᴀᴛᴏʀ Mamo4ka вошёл в нее » all /warp exe
+[19:59:58] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › Запрос отправлен игроку XFyiyxa14.
+[19:59:58] [Render thread/INFO]: [CHAT] Для отмены текущего запроса, введите /tpacancel.
+[20:00:01] [Render thread/INFO]: [CHAT] Ⓖ | [dox] sᴘʀɪɴɢ breakenhearts Well Well Well » all /warp pvpon z4 незер силка 3
+[20:00:01] [Render thread/INFO]: [CHAT] Ⓖ | [TOCT] ᴘᴀʟᴀᴅɪɴ pricetj » Warp qwe
+[20:00:02] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › ИгрокXFyiyxa14 принял ваш запрос на телепортацию.
+[20:00:02] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › Телепортация к XFyiyxa14.
+[20:00:02] [Render thread/WARN]: Received passengers for unknown entity
+[20:00:04] [Render thread/INFO]: [CHAT]  
+[20:00:04] [Render thread/INFO]: [CHAT]  ╔ Администратор boostyraa заблокировал i_love_amalia
+[20:00:04] [Render thread/INFO]: [CHAT]  ║ По причине: 2.4(отказ)
+[20:00:04] [Render thread/INFO]: [CHAT]  ╚ Длительность: 14 дн
+[20:00:04] [Render thread/INFO]: [CHAT]  
+[20:00:07] [Render thread/INFO]: [CHAT] 
+[20:00:07] [Render thread/INFO]: [CHAT]  ╔ Игрок kwvcwDXD выиграл донат ᴘʜᴏᴇɴɪx
+[20:00:07] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:07] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:07] [Render thread/INFO]: [CHAT] 
+[20:00:11] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › Точка дома успешно установлена.
+[20:00:11] [Render thread/INFO]: [CHAT] Ⓖ | [ебенис] ᴀᴜᴛᴜᴍɴ grifer008 »  warp milky тп еззки
+[20:00:12] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › Игрок houseroom ищет себе соперника! (/pvp)
+[20:00:12] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] Femboy mondraj Milk» all /warp aytisti /otpor /ezzz
+[20:00:13] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘᴀʟᴀᴅɪɴ vetronovvv вошёл в нее »  /warp papa all ezz /otpor /soso /ezz /ezzki
+[20:00:16] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘᴀʟᴀᴅɪɴ vetronovvv вошёл в нее »  /warp papa all ezz /otpor /soso /ezz /ezzki
+[20:00:17] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘʟᴀʏᴇʀ Pystashitele »  HouNaveng ебанат ты далбаеб я хачу теру посматреть этот хуйлуша убивает
+[20:00:17] [Render thread/INFO]: [CHAT] Ⓖ | [dox] sᴘʀɪɴɢ breakenhearts Well Well Well » all /warp pvpon z4 незер силка 3
+[20:00:18] [Render thread/INFO]: [CHAT] Ⓖ | [TOCT] ᴘᴀʟᴀᴅɪɴ yaqqqwilliamsss »  all /warp why
+[20:00:22] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] YouExe+ HouNaveng Великий» -ez
+[20:00:23] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘʟᴀʏᴇʀ Pystashitele »  HouNaveng ебанат ты далбаеб я хачу теру посматреть этот хуйлуша убивает
+[20:00:24] [Render thread/INFO]: [CHAT] Ⓖ | [TOCT] ᴘᴀʟᴀᴅɪɴ pricetj » Warp qwe
+[20:00:25] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › Вы начали сражение с игроком
+[20:00:25] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] YouExe+ HouNaveng Великий» -ez
+[20:00:25] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] Femboy mondraj Milk» all /warp aytisti /otpor /ezzz
+[20:00:26] [Render thread/INFO]: [CHAT] 
+[20:00:26] [Render thread/INFO]: [CHAT]  ╔ Игрок boostyraa выиграл донат ɪᴍᴘᴇʀᴀᴛᴏʀ
+[20:00:26] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:26] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:26] [Render thread/INFO]: [CHAT] 
+[20:00:28] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘʟᴀʏᴇʀ Pystashitele »  HouNaveng ебанат ты далбаеб я хачу теру посматреть этот хуйлуша убивает
+[20:00:28] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ zxcXCombOX вошёл в нее » all /warp rv legit ez /otpor /ezzzz
+[20:00:29] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ GUNY_2 » all warp xuesos
+[20:00:30] [Render thread/INFO]: [CHAT] Ⓖ | [ебенис] ᴀᴜᴛᴜᴍɴ grifer008 »  warp milky тп еззки
+[20:00:31] [Render thread/INFO]: [CHAT] 
+[20:00:31] [Render thread/INFO]: [CHAT]    ⊲                 ☉                 ⊳
+[20:00:31] [Render thread/INFO]: [CHAT] 
+[20:00:31] [Render thread/INFO]: [CHAT]  ⎧
+[20:00:31] [Render thread/INFO]: [CHAT]  ⎹ Игрок majorieS подарил игроку yhgguguig
+[20:00:31] [Render thread/INFO]: [CHAT]  ⎹ Привилегию - ɢʟᴀᴅɪᴀᴛᴏʀ (4 д.)
+[20:00:31] [Render thread/INFO]: [CHAT]  ⎹ Хочешь также? - www.LonyGrief.me
+[20:00:31] [Render thread/INFO]: [CHAT]  ⎩
+[20:00:31] [Render thread/INFO]: [CHAT] 
+[20:00:31] [Render thread/INFO]: [CHAT]    ⊲                 ☉                 ⊳
+[20:00:31] [Render thread/INFO]: [CHAT] 
+[20:00:31] [Render thread/INFO]: [CHAT] 
+[20:00:31] [Render thread/INFO]: [CHAT]  ╔ Игрок boostyraa выиграл донат ᴘʀᴀᴠɪᴛᴇʟ
+[20:00:31] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:31] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:31] [Render thread/INFO]: [CHAT] 
+[20:00:32] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] YouExe+ HouNaveng Великий»  тише
+[20:00:33] [Render thread/INFO]: [CHAT] Ⓖ | [dox] sᴘʀɪɴɢ breakenhearts Well Well Well » all /warp pvpon z4 незер силка 3
+[20:00:34] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ zxcXCombOX вошёл в нее » all /warp rv legit ez /otpor /ezzzz
+[20:00:34] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] YouExe+ wpxchill Великий» /warp Chill pvp
+[20:00:35] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ GUNY_2 » all warp xuesos ezz
+[20:00:35] [Render thread/INFO]: [CHAT] 
+[20:00:35] [Render thread/INFO]: [CHAT]  ╔ Игрок boostyraa выиграл донат ᴘʀᴀᴠɪᴛᴇʟ
+[20:00:35] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:35] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:35] [Render thread/INFO]: [CHAT] 
+[20:00:40] [Render thread/INFO]: [CHAT] Ⓖ | [TOCT] ᴘᴀʟᴀᴅɪɴ yaqqqwilliamsss »  all /warp why
+[20:00:41] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] YouExe+ HouNaveng Великий»  голос
+[20:00:42] [Render thread/INFO]: [CHAT] Ⓖ | [TOCT] ᴘᴀʟᴀᴅɪɴ pricetj » Warp qwe
+[20:00:44] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ Hydra_team вошёл в нее »  warp zxc go pvp suka
+[20:00:44] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] YouExe+ HouNaveng Великий»  пес
+[20:00:45] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ zxcXCombOX вошёл в нее » all /warp rv legit ez /otpor /ezzzz
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT]    ⊲                 ☉                 ⊳
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎧ 
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎹ Сейчас на нашем сайте проходят скидки 50%!
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎹ Массовые скидки на 50% уже на сайте!
+[20:00:45] [Render thread/INFO]: [CHAT]  §x§9§F§F§7§F§F§l⎹ §fВоспользоваться скидкой: §a[§aЗа покупками!§a]
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎩ 
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT]    ⊲                 ☉                 ⊳
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT]    ⊲            ЧАТ-ИВЕНТ            ⊳
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎧
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎹ Чат-игра: Угадайте зашифрованное слово:
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎹ рриепК (Само слово)
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎹ Подсказка: в слове 6 букв
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎹ Награда: 183 рублей
+[20:00:45] [Render thread/INFO]: [CHAT]  ⎩
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:45] [Render thread/INFO]: [CHAT]    ⊲            ЧАТ-ИВЕНТ            ⊳
+[20:00:45] [Render thread/INFO]: [CHAT] 
+[20:00:46] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘᴏᴠᴇʟɪᴛᴇʟ Bogdan11years »  all /warp spszaseks ezzz z4
+[20:00:46] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ᴘʟᴀʏᴇʀ Pystashitele » all выдайте повилителя пж
+[20:00:47] [Render thread/INFO]: [CHAT] 
+[20:00:47] [Render thread/INFO]: [CHAT]  ╔ Игрок boostyraa выиграл донат ᴘʀᴀᴠɪᴛᴇʟ
+[20:00:47] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:47] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:47] [Render thread/INFO]: [CHAT] 
+[20:00:48] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ zxcXCombOX вошёл в нее » all /warp rv legit ez /otpor /ezzzz
+[20:00:49] [Render thread/INFO]: [CHAT] 
+[20:00:49] [Render thread/INFO]: [CHAT]    ⊲         ЧАТ-ИВЕНТ         ⊳
+[20:00:49] [Render thread/INFO]: [CHAT] 
+[20:00:49] [Render thread/INFO]: [CHAT]  ⎧
+[20:00:49] [Render thread/INFO]: [CHAT]  ⎹ Maxichat ответил правильно!
+[20:00:49] [Render thread/INFO]: [CHAT]  ⎹ Ответ: Крипер
+[20:00:49] [Render thread/INFO]: [CHAT]  ⎹ Награда: 183 рублей
+[20:00:49] [Render thread/INFO]: [CHAT]  ⎩
+[20:00:49] [Render thread/INFO]: [CHAT] 
+[20:00:49] [Render thread/INFO]: [CHAT]    ⊲         ЧАТ-ИВЕНТ         ⊳
+[20:00:49] [Render thread/INFO]: [CHAT] 
+[20:00:50] [Render thread/INFO]: [CHAT]  
+[20:00:50] [Render thread/INFO]: [CHAT]  ╔ manchest заглушил на время игрока Pystashitele
+[20:00:50] [Render thread/INFO]: [CHAT]  ║ По причине: Н/п
+[20:00:50] [Render thread/INFO]: [CHAT]  ╚ Длительность: 1 час
+[20:00:50] [Render thread/INFO]: [CHAT]  
+[20:00:50] [Render thread/INFO]: [CHAT] Ⓖ | [dox] sᴘʀɪɴɢ breakenhearts Well Well Well » all /warp pvpon z4 незер силка 3
+[20:00:52] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ zxcXCombOX вошёл в нее » all /warp rv legit ez /otpor /ezzzz
+[20:00:52] [Render thread/INFO]: [CHAT] Ⓖ | [Milers] ᴘᴀʟᴀᴅɪɴ xXBUSHIDOXx » all /warp murad zames
+[20:00:52] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) An error occurred in entity data handler EntityPacketRewriter1_19_3 for PLAYER entity type: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=6.3184376}
+[20:00:52] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Full entity data: EntityData{id=0, dataType=EntityDataTypeImpl{typeId=0, type=ByteType}, value=1}
+EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=6.3184376}
+[20:00:52] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Error: 
+java.lang.ClassCastException: class java.lang.Float cannot be cast to class java.lang.Integer (java.lang.Float and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at knot/com.viaversion.viaversion.protocols.v1_19_1to1_19_3.rewriter.EntityPacketRewriter1_19_3.lambda$registerRewrites$2(EntityPacketRewriter1_19_3.java:166) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.handleEntityData(EntityRewriter.java:126) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.lambda$registerSetEntityData$6(EntityRewriter.java:360) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:00:52] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) An error occurred in entity data handler EntityPacketRewriter1_19_3 for PLAYER entity type: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=17.620018}
+[20:00:52] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Full entity data: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=17.620018}
+[20:00:52] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Error: 
+java.lang.ClassCastException: class java.lang.Float cannot be cast to class java.lang.Integer (java.lang.Float and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at knot/com.viaversion.viaversion.protocols.v1_19_1to1_19_3.rewriter.EntityPacketRewriter1_19_3.lambda$registerRewrites$2(EntityPacketRewriter1_19_3.java:166) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.handleEntityData(EntityRewriter.java:126) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.lambda$registerSetEntityData$6(EntityRewriter.java:360) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:00:53] [Render thread/INFO]: [CHAT] 
+[20:00:53] [Render thread/INFO]: [CHAT]  ╔ Игрок ramen4ik выиграл донат ɪᴍᴘᴇʀᴀᴛᴏʀ
+[20:00:53] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:53] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:53] [Render thread/INFO]: [CHAT] 
+[20:00:53] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) An error occurred in entity data handler EntityPacketRewriter1_19_3 for PLAYER entity type: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=17.331697}
+[20:00:53] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Full entity data: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=17.331697}
+[20:00:53] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Error: 
+java.lang.ClassCastException: class java.lang.Float cannot be cast to class java.lang.Integer (java.lang.Float and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at knot/com.viaversion.viaversion.protocols.v1_19_1to1_19_3.rewriter.EntityPacketRewriter1_19_3.lambda$registerRewrites$2(EntityPacketRewriter1_19_3.java:166) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.handleEntityData(EntityRewriter.java:126) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.lambda$registerSetEntityData$6(EntityRewriter.java:360) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:00:54] [Render thread/INFO]: [CHAT] Ⓖ | [Нет клана] ɢʟᴀᴅɪᴀᴛᴏʀ Hydra_team вошёл в нее »  warp zxc go pvp suka
+[20:00:54] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) An error occurred in entity data handler EntityPacketRewriter1_19_3 for PLAYER entity type: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=5.860727}
+[20:00:54] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Full entity data: EntityData{id=6, dataType=EntityDataTypeImpl{typeId=3, type=FloatType}, value=5.860727}
+[20:00:54] [Netty Client IO #2/ERROR]: (1.19.1->1.19.3) Error: 
+java.lang.ClassCastException: class java.lang.Float cannot be cast to class java.lang.Integer (java.lang.Float and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at knot/com.viaversion.viaversion.protocols.v1_19_1to1_19_3.rewriter.EntityPacketRewriter1_19_3.lambda$registerRewrites$2(EntityPacketRewriter1_19_3.java:166) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.handleEntityData(EntityRewriter.java:126) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.rewriter.EntityRewriter.lambda$registerSetEntityData$6(EntityRewriter.java:360) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:00:54] [Render thread/INFO]: [CHAT] 
+[20:00:54] [Render thread/INFO]: [CHAT]  ╔ Игрок Pypserka выиграл донат ɪᴍᴘᴇʀᴀᴛᴏʀ
+[20:00:54] [Render thread/INFO]: [CHAT]  ║ Чтобы получить кейс пропиши: /free
+[20:00:54] [Render thread/INFO]: [CHAT]  ╚ Наш онлайн магазин: www.LonyGrief.me
+[20:00:54] [Render thread/INFO]: [CHAT] 
+[20:00:55] [Render thread/INFO]: [CHAT] sʏsᴛᴇᴍ » Вы погибли!
+[20:00:55] [Render thread/INFO]: [CHAT] sʏsᴛᴇᴍ » Координаты вашей смерти: (360, 78, -265)
+[20:00:55] [Render thread/INFO]: [CHAT] ʟᴏɴʏɢʀɪᴇꜰ › Игрок levin1337_fdufd покинул игру во время PvP и был наказан.
+[20:00:55] [Render thread/INFO]: Loaded 0 advancements
+[20:00:58] [Worker-Main-6/WARN]: Couldn't look up Ely profile properties for qjbxac
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from http://skinsystem.ely.by/profile/qjbxac due to Read timed out
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57-ely.4.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57-ely.4.jar:?]
+	at knot/by.ely.authlib.ElyProfileService.getElyProperties(ElyProfileService.java:36) ~[authlib-6.0.57-ely.4.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.unpackTextures(YggdrasilMinecraftSessionService.java:142) ~[authlib-6.0.57-ely.4.jar:?]
+	at knot/net.minecraft.class_1071$1.method_54647(class_1071.java:55) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57-ely.4.jar:?]
+	... 11 more
+[20:01:23] [Netty Client IO #3/WARN]: ERROR IN ClientboundBaseProtocol1_16 IN REMAP OF STATUS_RESPONSE (0x00)
+[20:01:23] [Netty Client IO #3/ERROR]: An exception occurred while handling a packet
+io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.channelRead(ViaDecoder.java:63) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.viafabricplus.protocoltranslator.netty.ViaFabricPlusViaDecoder.channelRead(ViaFabricPlusViaDecoder.java:44) ~[ViaFabricPlus-4.0.5-BACKPORT.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Packet Type: STATUS_RESPONSE, Client Protocol: 1.21.4, Server Protocol: 1.16.4-1.16.5, Index: 1, Type: StringType, Data: [], Packet ID: 0, Source 0: com.viaversion.viaversion.protocols.base.v1_7.ClientboundBaseProtocol1_7$1 (Anonymous)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 256)
+	at knot/io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.115.Final.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.VarIntType.readPrimitive(VarIntType.java:54) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:49) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.type.types.StringType.read(StringType.java:32) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.readFromBuffer(PacketWrapperImpl.java:146) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.passthrough(PacketWrapperImpl.java:194) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.lambda$map$0(PacketHandlers.java:57) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:413) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:436) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:355) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.connection.UserConnectionImpl.transformClientbound(UserConnectionImpl.java:331) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:266) ~[com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:53) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/com.viaversion.vialoader.netty.ViaDecoder.decode(ViaDecoder.java:33) ~[com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar:?]
+	at knot/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-4.1.115.Final.jar:?]
+	... 31 more
+[20:01:56] [Render thread/INFO]: [STDOUT]: Позиции draggable элементов успешно сохранены в файл C:\Users\HACKER\Desktop\GhostSense\game\files\drag.ew
+[20:01:56] [Render thread/INFO]: [STDOUT]: [+] Конфиг autocfg сохранён
+[20:01:56] [Render thread/INFO]: [STDOUT]: [-] Client shutdown
+[20:01:56] [Render thread/INFO]: Stopping!
